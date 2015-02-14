@@ -1,6 +1,6 @@
 {
   "name": "react-memory-stats",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React Component that shows your app memory activity.",
   "main": "index.js",
   "scripts": {

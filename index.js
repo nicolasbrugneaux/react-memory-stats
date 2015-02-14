@@ -1,1 +1,1 @@
-module.exports = require( 'dist/react-memory-stats' );
+module.exports = require( './dist/react-memory-stats' );
