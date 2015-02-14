@@ -1,0 +1,9 @@
+{
+  "browser": true,
+  "node": true,
+  "esnext": true,
+  "globals": {},
+  "quotmark": true,
+  "undef": true,
+  "unused": true
+}

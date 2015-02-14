@@ -1,0 +1,4 @@
+#!/bin/sh -ex
+
+./node_modules/6to5/bin/6to5/index.js src/react-memory-stats.jsx > dist/react-memory-stats.js;
+./node_modules/browserify/bin/cmd.js dist/react-memory-stats.js > dist/bundle.js --standalone ReactMemoryStats;
