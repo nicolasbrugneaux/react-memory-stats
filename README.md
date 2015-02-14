@@ -7,7 +7,7 @@ This plugin is based on Paul Irish's [memory-stats](https://github.com/paulirish
 ## Install
 
 ```
-npm i react-memory-stats --save
+npm install react-memory-stats --save
 ```
 
 ### Start Chrome with `--enable-precise-memory-info`
@@ -24,12 +24,12 @@ Otherwise the results from performance.memory are bucketed and less useful.
 
 ### Add the module to your react's dependencies
 
-```
+```js
 var MemoryStatsComponent = require( 'react-memory-stats' );
 ...
 render: function()
 {
-  return ( <ReactMemoryStats enabled={true}/> );
+  return ( <MemoryStatsComponent enabled={true}/> );
 }
 
 ```
